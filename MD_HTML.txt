@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dators Wiki</title>
+</head>
+<body>
+
 <h1>Dators</h1>
 
 <p>Dators (angļu: dat(a) (process)or — ‘datu apstrādātājs’): ir iekārta, kas uzkrāj un apstrādā datus pēc iepriekš definētas procedūras.</p> 
