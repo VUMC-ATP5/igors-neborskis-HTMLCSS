@@ -1,5 +1,5 @@
 ## HTML & CSS mācību faili
 
-2.lekcijas mājasdarbs / HTML kods failā: [MD_HTML.html](/MD_HTML.html)
+2.lekcijas mājasdarbs. HTML kods failā: [MD_HTML.html](/MD_HTML.html)
 
 
