@@ -1,5 +1,5 @@
-# HTML & CSS mācību faili
-## versija V2, kas atrodas tikai otrajā zarā
-Tiks papildināts...
-Vēlāk...
+## HTML & CSS mācību faili
+
+2.lekcijas mājasdarbs / HTML kods failā: MD_HTML.html
+
 
