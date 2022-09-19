@@ -1,8 +1,8 @@
+/* Common styles*/
 * {
     box-sizing: border-box;
 }
 
-/* Style the body */
 body {
     font-family: Verdana;
     margin: 0px;
@@ -21,9 +21,29 @@ h4 {
     font-weight: bold;
 }
 
+/* Paragraph classes */
 .jobTitle {
     text-transform: uppercase;
     font-size: large;
+}
+
+.education {
+    font-size: small;
+}
+
+.jobDescription {
+    font-size: small;
+}
+
+.jobPeriod {
+    text-transform: uppercase;
+    font-size: small    ;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    display: flex;
+    /*background-color: rgb(48, 104, 224);
+    color: white;*/
 }
 
 /* Header/logo Title */
