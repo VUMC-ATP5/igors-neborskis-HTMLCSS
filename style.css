@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Verdana;
+    margin: 0px;
+}
+
+p {
+    padding-left: 10px;
+}
+
+li {
+    padding-left: 5px;
+}
+
+h4 {
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.jobTitle {
+    text-transform: uppercase;
+    font-size: large;
+}
+
+/* Header/logo Title */
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #0604a0;
+    color: white;
+}
+
+/* Style link bars */
+.myLink {
+    display: flex;
+    background-color: rgb(48, 104, 224);
+}
+
+/* Change color on hover */
+.myLink:hover {
+    display: flex;
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style link bars */
+.myLink a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Change color on hover */
+.myLink a:hover {
+    display: flex;
+    background-color: #ddd;
+    color: black;
+}
+
+/* Column container */
+.mainBody {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.leftColumn {
+    flex: 25%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Main column */
+.rightColumn {
+    flex: 75%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: #0604a0;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer a {
+    color: white;
+}
+
+/* Change color on link hover */
+.footer a:hover {
+    color: rgb(48, 104, 224);
+}
+
+/* When the screen is less than 900px wide, stack two columns */
+@media screen and (max-width: 900px) {
+
+    .leftColumn,
+    .myLink {
+        flex-direction: column;
+    }
+}
