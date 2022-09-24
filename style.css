@@ -21,14 +21,30 @@ h4 {
     font-weight: bold;
 }
 
-/* Paragraph classes */
+
+/* Classes */
+.education {
+    font-size: small;
+}
+
+.competences {
+    font-size: normal;
+    list-style-type: circle;
+}
+
+.languages {
+    font-size: normal;
+    list-style-type: circle;
+}
+
+.progress {
+    font-size: small;
+    list-style-type: none;
+}
+
 .jobTitle {
     text-transform: uppercase;
     font-size: large;
-}
-
-.education {
-    font-size: small;
 }
 
 .jobDescription {
@@ -42,9 +58,16 @@ h4 {
     padding-bottom: 10px;
     padding-left: 20px;
     display: flex;
-    /*background-color: rgb(48, 104, 224);
-    color: white;*/
 }
+
+.imgStyle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10%;
+  }
+
 
 /* Header/logo Title */
 .header {
@@ -53,6 +76,19 @@ h4 {
     background: #0604a0;
     color: white;
     text-transform: uppercase;
+}
+
+/* Style left column bars */
+.leftColBar {
+    display: flex;
+    background-color: #f9f9f9;
+    padding: 5px 20px;
+}
+
+/* Style link bars */
+.myLink {
+    display: flex;
+    background-color: rgb(48, 104, 224);
 }
 
 /* Style link bars */
@@ -92,22 +128,15 @@ h4 {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .leftColumn {
-    flex: 25%;
+    flex: 30%;
     background-color: #f1f1f1;
     padding: 20px;
 }
 
 /* Main column */
 .rightColumn {
-    flex: 75%;
+    flex: 70%;
     background-color: white;
-    padding: 20px;
-}
-
-/* Fake image, just for this example */
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
     padding: 20px;
 }
 
