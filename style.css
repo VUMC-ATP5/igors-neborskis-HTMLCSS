@@ -165,8 +165,8 @@ h4 {
     color: rgb(48, 104, 224);
 }
 
-/* When the screen is less than 600px wide, stack two columns */
-@media screen and (max-width: 600px) {
+/* When the screen is less than 500px wide, stack two columns */
+@media screen and (max-width: 500px) {
 
     .leftColumn,
     .myLink {
