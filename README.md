@@ -7,3 +7,4 @@
 **3.lekcijas mājasdarbs**
 - HTML kods failā: [index.html](/index.html)
 - CSS stili failā: [style.css](/style.css)
+- web lapa: [https://vumc-atp5.github.io/igors-neborskis-HTMLCSS/](/https://vumc-atp5.github.io/igors-neborskis-HTMLCSS/)
